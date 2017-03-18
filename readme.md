@@ -1,10 +1,11 @@
 ---
 author:
 - gitten
+title: 'Clean Your Room!'
 ---
 
-Activity - "Clean Your Room!"
-=============================
+Activity
+========
 
 Managing and manipulating a filesystem using the Standard Python Library
 \`os\` and module \`os.path\`
@@ -45,6 +46,8 @@ Tasks
 -   Review the current state of your files and directories on the
     filesystem. Decide on an initial organization scheme you want to
     follow. This might change while you are organizing, thats OK!
+-   **IMPORTANT!**: Make a backup of all your files! If you mistakenly
+    erase a file or bash your directories, it will be gone for good. =(
 -   Clean your room!
 
 Resources
@@ -52,6 +55,15 @@ Resources
 
 ### Python functions you might want to use
 
+-   os.mkdir()
+-   os.makedirs()
+-   os.remove()
+-   os.removedirs()
+-   os.rename()
+-   os.renames()
+-   os.replace()
+-   os.rmdir()
+-   os.scandir()
 -   os.path.abspath()
 -   os.path.basename()
 -   os.path.dirname()
@@ -61,5 +73,8 @@ Resources
 -   os.path.join()
 -   os.path.split()
 -   os.path.splittext()
--   further reading available in your Python version
-    [docs](https://docs.python.org/3.4/library/os.path.html)
+-   further reading available in your Python version docs
+    -   [os lib - python
+        3.5](https://docs.python.org/3.5/library/os.html?highlight=os#files-and-directories)
+    -   [os.path module - python
+        3.5](https://docs.python.org/3.5/library/os.path.html#module-os.path)
