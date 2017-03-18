@@ -2,10 +2,11 @@
 author:
 - gitten
 title: 'Clean Your Room!'
+type: Activity
 ---
 
-Activity
-========
+Focus
+=====
 
 Managing and manipulating a filesystem using the Standard Python Library
 \`os\` and module \`os.path\`
