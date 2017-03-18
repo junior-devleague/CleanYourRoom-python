@@ -5,8 +5,8 @@ title: 'Clean Your Room!'
 type: Activity
 ---
 
-Focus
-=====
+Clean Your Room
+===============
 
 Managing and manipulating a filesystem using the Standard Python Library
 \`os\` and module \`os.path\`
@@ -65,6 +65,8 @@ Resources
 -   os.replace()
 -   os.rmdir()
 -   os.scandir()
+-   os.chdir()
+-   os.listdir()
 -   os.path.abspath()
 -   os.path.basename()
 -   os.path.dirname()
